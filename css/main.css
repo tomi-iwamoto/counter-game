@@ -87,6 +87,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+    background:green;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  #box {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:lightblue;
+    width:350px;
+    height:350px;
+    margin-top: 200px;
+  }
+  
+  button {
+    border:none;
+    background:green;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    margin:10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #box h2 {
+    color:green;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #box h1 {
+    color:darkgreen;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
